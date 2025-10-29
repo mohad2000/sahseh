@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.products-page-h1{
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.products-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.products-parent div{
+    width: 300px;
+    margin: 20px 20px;
+    
+
+}
+
+.products-parent img{
+    width: 200px;
+}
+
+.products-parent p{
+    padding: 20px;
+  
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.products-parent h5{
+    margin: 1px 0;
+    font-weight: 300;
+}

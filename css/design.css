@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* justify-content: space-evenly */
+    /* margin: 0 20px; */
+    background-color: #2FA34D;
+    padding: 10px;
+    
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    border-radius: 20%;
+    margin-top: 1vh;
+    margin-left: 10vw;
+}
+
+.list-items{
+    display: flex;
+    margin-top: 30px;
+    color: #000000;
+}
+
+.list-items li{
+    list-style: none;
+    padding: 0 15px;
+    color: #000000;
+    font-weight: bold;
+
+}
+.list-items a{
+    position: relative;
+    color: #000000;
+     text-decoration: none;
+     transition: color 0.3s ease;
+
+}
+
+.list-items a:hover{
+     color: #FFD300;
+}
+
+.list-items a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #FFD300;
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+
+.login-btn{
+    margin-right: 10vw;
+    padding: 9px;
+    width: 90px;
+    margin-top: 3vh;
+    border: none;
+    background-color: #000000;
+    color: #FFD300;
+    border-radius: 20vw;
+    
+}
+
+.banner-img{
+    width: 100vw;
+    height: 120vh;
+    
+}
+
+.products img{
+    margin-left: 5vw;
+    width: 200px;
+    height: 200px;
+    /* border-radius: 20px; */
+    padding-left: 50px;
+}
+
+.products{
+    margin: 20px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 10px solid black; */
+    padding: 20px;
+
+}
+
+.products h1{
+    font-size: 26px;
+    font-weight: 300px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.products p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300px;
+    padding: 10px;
+    padding-right: 60px;
+    color: #086a22;
+}
+
+.pro-h1{
+    text-align: center;
+    margin: 30px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200px;
+    font-size: 36px;
+    color: #000000;
+}
+
+
+
+.first-div-footer{
+    background-color:#2FA34D;
+    padding: 20px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    color: #074216;
+    font-weight: bold;
+}
+.footer-nav{
+    
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    /* text-align: center; */
+    /* margin-right: 35vw; */
+    
+}
+.lorem p{
+     font-weight: bold;
+    text-align: center;
+    /* padding: 20px; */
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #074216;
+}
+
+.login-img img{
+    width: 20vw;
+    height: 70vh;
+}
+
+.parant-form{
+    
+
+}

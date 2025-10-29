@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading-1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    margin: 20px 0;
+}
+.reg-box{
+   width: 400px;
+   /* border: 2px solid #2f3640; */
+   background-color: #ffffff;
+   margin: 20vh auto;
+   color: #392f40;
+   padding: 30px 40px;
+   border-radius: 12px;
+   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.reg-form-h1{
+    font-weight: 300px;
+    color: #2f3640;
+    padding: 0px;
+    margin: 1px;
+    /* margin-left: 50px; */
+    font-size: 30px;
+    text-align: center;
+}
+
+.reg-form{
+    padding: 20px;
+    padding-bottom: 0px;
+    /* margin-bottom: 50px; */
+    background-color: #ffffff;
+    /* margin-left: 30px; */
+    
+}
+
+.reg-form label{
+    font-size: 15px;
+    color: #2f3640;
+    /* margin-bottom: 10px; */
+    
+}
+
+.reg-form input{
+    margin-top: 7px;
+    height: 10px;
+    border-left: 1px solid #2f3640;
+    border-right: 1px solid #2f3640;
+    background-color: #dcdde1;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    /* border: 1px solid #dcdde1; */
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+ .register-container input:focus {
+      border-color: #0984e3;
+      box-shadow: 0 0 5px rgba(9, 132, 227, 0.3);
+    }
+
+.Gender{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #dcdde1;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 7px;
+    height: 15px;
+}
+
+
+
+.class-btn{
+    margin: 20px;
+    font-size: 15px;
+    background-color: #383a3e;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.btn2{
+    border:none;
+    background-color: #383a3e;
+    /* color: white; */
+    margin: 6px;
+    color: white;
+}
+
+.reg-form-h4{
+    margin-left: 110px;
+    margin-top: 20px;
+    font-size: 10px;
+    background-color:white;
+}
+
+
+.reg-form-h5{
+    margin-left: 70px;
+     margin-top: 20px;
+    font-size: 10px;
+    background-color:white;
+}
