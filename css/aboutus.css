@@ -6,31 +6,34 @@
     margin: 20px 0;
 }
 
-.profile-img img{
-    width: 350px;
-    border-radius: 20px;
-    margin-top: 10vh;
-    
-}
-
-.aboutus{
+.first-child{
     display: flex;
-    justify-content: space-evenly;
-    margin: 40px;
-   
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
-.aboutus-text{
- width: 50vw;
- margin-top: 20px;
+.first-child img{
+    width: 350px;
+    height: 350px;
+    /* border-radius:20%; */
+    /* margin-top: 10vh;    */
 }
 
-.aboutus-text h2{
-    margin-left: 30px;
+.second-child{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.aboutus-text p{
-    margin-top: 30px;
-    margin-left: 50px;
-    letter-spacing: 2px;
+.second-child h2{
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: 300px;
+}
+
+.second-child p{
+    font-size: 16px;
+    font-weight: 300px;   
+    letter-spacing: 1px;
 }
