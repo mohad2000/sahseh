@@ -88,3 +88,24 @@ a:hover::after {
     margin-left: 15vw!important;
 }
 
+
+.achievements img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.achievements h1{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.achievements p{
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.achievements{
+    margin-bottom: 20px;
+}
